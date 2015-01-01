@@ -1,0 +1,3 @@
+aws_ecs_bundle:
+        path: /showresult/{type}
+        defaults: { _controller: AwsEcsBundle:Display:index }
